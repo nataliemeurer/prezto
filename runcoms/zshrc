@@ -1,13 +1,23 @@
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+alias .="cd ../"
+alias ..="cd ../../"
+alias ...="cd ../../../"
+alias gw=./gradlew
+alias gs="git status"
+alias grc="git rebase --continue"
+
+export JAVA_7_HOME=`/usr/libexec/java_home -v 7`
+export JAVA_8_HOME=`/usr/libexec/java_home -v 8`
+export JAVA_9_HOME=`/usr/libexec/java_home -v 9`
+export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
+export JAVA_HOME=$JAVA_8_HOME
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
