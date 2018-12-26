@@ -14,8 +14,10 @@ alias grc="git rebase --continue"
 
 export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
 export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_9_HOME=`/usr/libexec/java_home -v 1.9`
-export JAVA_10_HOME=`/usr/libexec/java_home -v 1.10`
+export JAVA_9_HOME=`/usr/libexec/java_home -v 9`
+export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
+export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
+export JAVA_12_HOME=`/usr/libexec/java_home -v 12`
 export JAVA_HOME=$JAVA_8_HOME
 
 export NVM_DIR="$HOME/.nvm"
