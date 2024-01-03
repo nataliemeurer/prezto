@@ -13,16 +13,13 @@ alias gs="git status"
 alias grc="git rebase --continue"
 alias pip="pip3"
 
-export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
-export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_9_HOME=`/usr/libexec/java_home -v 9`
-export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
-export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
-export JAVA_12_HOME=`/usr/libexec/java_home -v 12`
-export JAVA_HOME=$JAVA_11_HOME
-export ROPSTEN_PRIVATE_KEY="3aca4a08bec752e39fcba309b687878eda62d93642372944380e03f6b99475be"
-
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/nmeurer/Projects/auth/lifeboat-etl-phil.json"
+# export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
+# export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_9_HOME=`/usr/libexec/java_home -v 9`
+# export JAVA_10_HOME=`/usr/libexec/java_home -v 10`
+# export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
+# export JAVA_12_HOME=`/usr/libexec/java_home -v 12`
+# export JAVA_HOME=$JAVA_11_HOME
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
